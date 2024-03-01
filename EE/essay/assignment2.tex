@@ -34,6 +34,10 @@
 
 % use for graph
 \usepackage{graphicx} 
+\usepackage{subfigure}
+\usepackage{caption}
+
+
 \pagestyle{fancyplain} % Makes all pages in the document conform to the custom headers and footers
 \fancyhead{} % No page header - if you want one, create it in the same way as the footers below
 \fancyfoot[L]{} % Empty left footer
@@ -77,41 +81,78 @@
 
 \section{Introduction}
 
-\begin{figure}[h]
+
+
+
+
+
+Based on the improvement of certain theories and the improvement of computer computing power,
+AI has achieved rapid development in the 21st century. It raises huge expectaions, has attracted 
+significant investment expecialy in Medical and healthcare area (table 1). 
+
+
+\begin{figure}[htbp]
     \centering
-    \includegraphics[width=0.5\textwidth]{./data/investegatement.png}
-    \caption{This is the title}
-    \label{fig:my_picture}
+    \begin{minipage}[t]{0.48\linewidth}
+        \includegraphics[width=\linewidth]{./data/investegatement.png}
+        \caption{Annual private investment in AI}
+        \label{fig:investment}
+    \end{minipage}\hfill
+    \begin{minipage}[t]{0.48\linewidth}
+        \includegraphics[width=\linewidth]{./data/influence.png}
+        \caption{Views on AI's impact on society}
+        \label{fig:views_ai_impact}
+    \end{minipage}
 \end{figure}
 
 
 
-this is test \cite{chenRethinkingAtrousConvolution2017}
 
 
-As part of a module for the MA in Digital and Arts and Humanities, i was asked to review a Digital Tool and submit that review to DiRT. I decided to review Overleaf as I have been trying to get away from MS Word for some time and this seemed like a good opportunity to try a different word processor.
+So far, advocates of healthcare (HCAI)
+have promised the thechnology will improve the accuracy of screening and diagnosis, increase the availability of create
+in remote regions and free up physicain's time so that they can engage more with patients \cite{frostPublicViewsEthical2022}.
+Meanwhile, questions around the potential exacerbation of health disparities due to modeling biases have raised notable ethical
+concerns regarding the use of this technology in healthcare \cite{onianiAdoptingExpandingEthical2023}. 
+Here we are going to disscuess, how did this issues arise and what shold we do to solve it.
 
 
 
-Suggested Structure:
-Gathering information
-In order to begin working with Overleaf, you first need to go to the website and create an account. This was a relatively easy and painless process and I was able to begin working on a document within a couple of minutes.There was a tutorial which suggested itself as soon as you log in but it also gives you the option to just start writing. While I did go through the tutorial it was reassuring to see that they were confident that it was possible to just jump in and start writing. It was also nice that the tutorial was very simple and basic and it took only a couple of minutes though there was an option to go into some things in more detail. The tutorial also directed you to the help menu or to the forum in the even that you needed any help. All in all it was a very nice introduction.
+% \begin{figure}[h]
+%     \centering
+%     \includegraphics[width=0.9\textwidth]{./data/investegatement.png}
+%     \caption{This is the title}
+%     \label{fig:my_picture}
+% \end{figure}
 
 
-I also had a look for other reviews but there were none that I could find easily. The main reason for this is that Overleaf, is the new brand name for the well known word processing package Write LaTeX.
 
-What I did not know until I eventually found a review is that Overleaf seems to be primarily aimed at Maths students. Had I known this I may have looked elsewhere. All in all I am little confused by this as I was under the impression that LaTeX was not solely aimed at scientists but more generally for those writing any project.
+% \begin{figure}[h]
+%     \centering
+%     \includegraphics[width=0.9\textwidth]{./data/influence.png}
+%     \caption{This is the title}
+%     \label{fig:my_picture}
+% \end{figure}
 
 
-So, Overleaf would seem to be the new kid on the block to some extent albeit with the help of one of the bigger boys. However, there are problems on this front. On the plus side you do not have to download any text editor as is the case with Write LaTeX but that has a downside in that there is no text editor.
 
-I also found difficult once I got past the first few lines. If I tried to mess around with brackets etc I was lost and while the tutorials were helpful, I got the feeling that I would be better off with a fully functional LaTeX editor.
 
-There are other plus points however. Overleaf is free is you are happy with the basement version while you have to pay if you want the bells and whistles. 
 
-There is also a strong community at work who are willing to help and it is not difficult to have queries resolved. This is a positive. 
 
-On the whole though, I was a little disappointed as I expected to get a little more out of it more quickly but I didn't. I looked at one review of Overleaf which was very positive and I think it is worth persevering for a while with it but the jury is out on whether or not I have found the processor that will replace MS Word, for me at least. 
+
+% 问题是怎么产生的
+% 监管
+% 大众
+% 人工智能的制作者
+
+
+% 处理这个问题的原则
+% 人工智能遵循原则和
+
+
+% 结论
+
+
 
 
 
@@ -120,7 +161,6 @@ On the whole though, I was a little disappointed as I expected to get a little m
 
 \bibliographystyle{plain} % This specifies the style of the bibliography
 \bibliography{/Users/dengkai/workspace/papers/latex/config/ref} % This should match the name of your .bib file without the extension
-
 
 
 \end{document}
