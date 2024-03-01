@@ -31,6 +31,9 @@
 \allsectionsfont{\centering \normalfont\scshape} % Make all sections centered, the default font and small caps
 
 \usepackage{fancyhdr} % Custom headers and footers
+
+% use for graph
+\usepackage{graphicx} 
 \pagestyle{fancyplain} % Makes all pages in the document conform to the custom headers and footers
 \fancyhead{} % No page header - if you want one, create it in the same way as the footers below
 \fancyfoot[L]{} % Empty left footer
@@ -65,10 +68,7 @@
 \date{\normalsize\today} % Today's date or a custom date
 
 
-
-
 \begin{document}
-
 \maketitle % Print the title
 
 %----------------------------------------------------------------------------------------
@@ -77,12 +77,17 @@
 
 \section{Introduction}
 
-\bibliographystyle{plain} % This specifies the style of the bibliography
-\bibliography{/Users/dengkai/workspace/papers/latex/config/ref} % This should match the name of your .bib file without the extension
+\begin{figure}[h]
+    \centering
+    \includegraphics[width=0.5\textwidth]{./data/investegatement.png}
+    \caption{This is the title}
+    \label{fig:my_picture}
+\end{figure}
 
 
 
 this is test \cite{chenRethinkingAtrousConvolution2017}
+
 
 As part of a module for the MA in Digital and Arts and Humanities, i was asked to review a Digital Tool and submit that review to DiRT. I decided to review Overleaf as I have been trying to get away from MS Word for some time and this seemed like a good opportunity to try a different word processor.
 
@@ -113,4 +118,10 @@ On the whole though, I was a little disappointed as I expected to get a little m
 
 %----------------------------------------------------------------------------------------
 
+\bibliographystyle{plain} % This specifies the style of the bibliography
+\bibliography{/Users/dengkai/workspace/papers/latex/config/ref} % This should match the name of your .bib file without the extension
+
+
+
 \end{document}
+
