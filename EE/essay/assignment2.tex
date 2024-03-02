@@ -36,7 +36,7 @@
 \usepackage{graphicx} 
 \usepackage{subfigure}
 \usepackage{caption}
-
+\usepackage{float} 
 
 \pagestyle{fancyplain} % Makes all pages in the document conform to the custom headers and footers
 \fancyhead{} % No page header - if you want one, create it in the same way as the footers below
@@ -81,14 +81,9 @@
 
 \section{Introduction}
 
-
-
-
-
-
 Based on the improvement of certain theories and the improvement of computer computing power,
 AI has achieved rapid development in the 21st century. It raises huge expectaions, has attracted 
-significant investment expecialy in Medical and healthcare area (figure1.1). So far, advocates of healthcare AI (HCAI)
+significant investment expecialy in Medical and healthcare area (Figure1.1 and Figure1.2). So far, advocates of healthcare AI (HCAI)
 have promised the thechnology will improve the accuracy of screening and diagnosis, increase the availability of create
 in remote regions and free up physicain's time so that they can engage more with patients \cite{frostPublicViewsEthical2022}.
 Meanwhile, questions around the potential exacerbation of health disparities due to modeling biases have raised notable ethical
@@ -98,11 +93,35 @@ Here we are going to disscuess, how did this issues arise and what should we do 
 
 
 
+\begin{figure}[H]
+    \centering
+    \begin{minipage}[t]{0.48\linewidth}
+        \includegraphics[width=\linewidth]{./data/investment_by_type.png}
+        \caption{Annual investment in AI by type}
+        \label{fig:investment}
+    \end{minipage}\hfill
+    \begin{minipage}[t]{0.48\linewidth}
+        \includegraphics[width=\linewidth]{./data/investment_by_area.png}
+        \caption{Annual investment in AI by area}
+        \label{fig:views_ai_impact}
+    \end{minipage}
+\end{figure}
+
+
+% 大众
+\section{section1}
+Public may be both benificiaries of new HCAI technologies and the greatest sufferers of AI-related harms. The result highlight that there are still noticeable concerns about 
+implementing HCAI in diagnostics and treatment recommendations for patients eith both acute and chronic illnesses, even if these tools are used as a recommendation system under the 
+physician experience and wisdom. Individuals may still not be ready to accept and use HCAI \cite{esmaeilzadehPatientsPerceptionsHuman2021}. Patients and publics are important voices In
+developing effective and ethical AI governance, but engaging patients and pbulics meanigfully in research about ethical HCAI is challenging. Most people have no first hand experience with HCAI,
+and some are unfamiliar with the concept of AI in general, Pulics may have limited understaing of how HCAI may be implemented and limited knowledge about the potential wrongs and harms that coudld
+arise from implementing HCAI \cite{frostPublicViewsEthical2022}
+
 
 \begin{figure}[htbp]
     \centering
     \begin{minipage}[t]{0.48\linewidth}
-        \includegraphics[width=\linewidth]{./data/investegatement.png}
+        \includegraphics[width=\linewidth]{./data/influence_by_ages.png}
         \caption{Annual private investment in AI}
         \label{fig:investment}
     \end{minipage}\hfill
@@ -114,13 +133,14 @@ Here we are going to disscuess, how did this issues arise and what should we do 
 \end{figure}
 
 
-
-\section{section1}
+% 医生
+\section{section2}
 Public may be both benificiaries of new HCAI technologies and the greatest sufferers of AI-related harms. The result highlight that there are still noticeable concerns about 
 implementing HCAI in diagnostics and treatment recommendations for patients eith both acute and chronic illnesses, even if these tools are used as a recommendation system under the 
-physician experience and wisdom. Individuals may still not be ready to accept and use HCAI \cite{esmaeilzadehPatientsPerceptionsHuman2021}.
-
-
+physician experience and wisdom. Individuals may still not be ready to accept and use HCAI \cite{esmaeilzadehPatientsPerceptionsHuman2021}. Patients and publics are important voices In
+developing effective and ethical AI governance, but engaging patients and pbulics meanigfully in research about ethical HCAI is challenging. Most people have no first hand experience with HCAI,
+and some are unfamiliar with the concept of AI in general, Pulics may have limited understaing of how HCAI may be implemented and limited knowledge about the potential wrongs and harms that coudld
+arise from implementing HCAI \cite{frostPublicViewsEthical2022}
 
 
 
@@ -128,12 +148,12 @@ In general terms it refers to questions involving moral concepts such as right a
 In most familiar contexts humans intuitively know what is right and wrong, a knowledge of ethics that is acquired during human socialisation.
 Sometimes this intuition fails or conflicts with others’ intuitions, at which point ethics appears as a set 
 of explicit statements in the form of “you should never / always do X”. Where such statements are not accepted and need justification, 
-ethics as a set of philosophical theories is called for. Ethics can be descriptive or normative, abstract or applied.
+ethics as a set of philosophical theories is called for. Ethics can be descriptive or normative, abstract or applied. 
 
 
 % 问题是怎么产生的
 % 监管
-% 大众
+
 % 人工智能的制作者
 
 
