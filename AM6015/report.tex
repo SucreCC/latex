@@ -1,0 +1,145 @@
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+% Short Sectioned Assignment
+% LaTeX Template
+% Version 1.0 (5/5/12)
+%
+% This template has been downloaded from:
+% http://www.LaTeXTemplates.com
+%
+% Original author:
+% Frits Wenneker (http://www.howtotex.com)
+%
+% License:
+% CC BY-NC-SA 3.0 (http://creativecommons.org/licenses/by-nc-sa/3.0/)
+%
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+%----------------------------------------------------------------------------------------
+%	PACKAGES AND OTHER DOCUMENT CONFIGURATIONS
+%----------------------------------------------------------------------------------------
+
+\documentclass[paper=a4, fontsize=11pt]{scrartcl} % A4 paper and 11pt font size
+
+\usepackage[T1]{fontenc} % Use 8-bit encoding that has 256 glyphs
+\usepackage{fourier} % Use the Adobe Utopia font for the document - comment this line to return to the LaTeX default
+\usepackage[english]{babel} % English language/hyphenation
+\usepackage{amsmath,amsfonts,amsthm} % Math packages
+
+\usepackage{lipsum} % Used for inserting dummy 'Lorem ipsum' text into the template
+
+\usepackage{sectsty} % Allows customizing section commands
+\allsectionsfont{\centering \normalfont\scshape} % Make all sections centered, the default font and small caps
+
+\usepackage{fancyhdr} % Custom headers and footers
+
+% use for graph
+\usepackage{graphicx} 
+\usepackage{subfigure}
+\usepackage{caption}
+\usepackage{float} 
+
+\pagestyle{fancyplain} % Makes all pages in the document conform to the custom headers and footers
+\fancyhead{} % No page header - if you want one, create it in the same way as the footers below
+\fancyfoot[L]{} % Empty left footer
+\fancyfoot[C]{} % Empty center footer
+\fancyfoot[R]{\thepage} % Page numbering for right footer
+\renewcommand{\headrulewidth}{0pt} % Remove header underlines
+\renewcommand{\footrulewidth}{0pt} % Remove footer underlines
+\setlength{\headheight}{13.6pt} % Customize the height of the header
+
+\numberwithin{equation}{section} % Number equations within sections (i.e. 1.1, 1.2, 2.1, 2.2 instead of 1, 2, 3, 4)
+\numberwithin{figure}{section} % Number figures within sections (i.e. 1.1, 1.2, 2.1, 2.2 instead of 1, 2, 3, 4)
+\numberwithin{table}{section} % Number tables within sections (i.e. 1.1, 1.2, 2.1, 2.2 instead of 1, 2, 3, 4)
+
+\setlength\parindent{0pt} % Removes all indentation from paragraphs - comment this line for an assignment with lots of text
+
+%----------------------------------------------------------------------------------------
+%	TITLE SECTION
+%----------------------------------------------------------------------------------------
+
+\newcommand{\horrule}[1]{\rule{\linewidth}{#1}} % Create horizontal rule command with 1 argument of height
+
+\title{	
+\normalfont \normalsize 
+\textsc{University College cork} \\ [25pt] % Your university, school and/or department name(s)
+\horrule{0.5pt} \\[0.4cm] % Thin top horizontal rule
+\huge Modeling Biological Neural Networks \\ % The assignment title
+\horrule{2pt} \\[0.5cm] % Thick bottom horizontal rule
+}
+
+\author{Kai Deng} % Your name
+
+\date{\normalsize\today} % Today's date or a custom date
+
+
+\begin{document}
+\maketitle % Print the title
+
+
+
+\section{introduction}
+For a comprehensive understanding of modeling biological neural networks, 
+I recommend reading several seminal works. "Real-time computing without stable
+ states: a new framework for neural computation based on perturbations" by Maass 
+ et al. (2002) provides a framework for neural computation that departs from 
+ traditional stable state computations. Additionally, Markram et al. (1997) 
+ have contributed foundational knowledge on synaptic efficacy and its regulation. 
+ To delve into contemporary neuromorphic computing systems, Mead (1990) and Meier (2015) 
+ offer significant insights. Finally, for advancements in phase-change memory devices and 
+ their application to neuromorphic computing, you might consider exploring the works of Tuma et al. 
+ (2016) and Burr et al. (2017). These papers will offer a broad and detailed spectrum of 
+ knowledge on the subject.
+
+ For additional papers on modeling biological neural networks, you may look into 
+ "Neuromorphic computing using non-volatile memory" by Burr et al. (2017), 
+ which explores the application of non-volatile memory technology in neural network models, 
+ and Davies et al. (2018) discuss "Loihi", a neuromorphic manycore processor with on-chip learning 
+ capabilities. For a tutorial on brain-inspired computing using phase-change memory devices,
+see the work by Sebastian et al. (2018). These papers are at the forefront of combining neuroscience 
+with advanced computational technologies.
+
+Certainly! Here are some recent significant papers related to the modeling of biological neural networks which you may find valuable:
+
+1. A paper on "Reliable interpretability of biology-inspired deep neural networks" delves into how interpretations from neural networks can be influenced by the initialization of weights and the structure of the network itself. The study emphasizes the need for repeated network training to ensure robustness and reliability of interpretations (Nature Systems Biology and Applications).
+
+2. The article "Deep learning incorporating biologically inspired neural dynamics and in-memory computing" discusses learning spatio-temporal patterns and the use of phase-change memristors, highlighting advancements in neuromorphic computing and its potential applications in biological neural network modeling (Nature Machine Intelligence).
+
+3. In "Biologically informed deep neural network for prostate cancer discovery," researchers have presented a framework for outcome prediction and hypothesis generation in prostate cancer, demonstrating how a deep neural network can incorporate biological pathways to provide insights that could potentially be translated clinically (Nature).
+
+4. For a more theoretical perspective, the arXiv paper "Learning biological neuronal networks with artificial neural networks: neural oscillations" provides insights into the parameters and simulations of spiking neural networks (SNNs), focusing on how they can be used to understand neural oscillations, which are crucial in various cognitive computations.
+
+These papers offer a blend of practical applications, theoretical understanding, and the latest methodologies in the field. They reflect the current trends in harnessing deep learning and computational models to gain insights into biological neural networks and their functions.
+
+
+\subsection{Background Context}
+Neural networks in the biological realm are intricate and complex systems. They consist of neurons that communicate with one another, forming a network that processes information. The functionality and significance of such networks form the bedrock of our understanding of the brain's processing capabilities.
+
+\subsection{Significance of Modeling}
+Modeling serves as a pivotal tool in neuroscience, providing insight into the functionality of the brain and the intricate mechanisms of neural processes. It offers a window into the otherwise inaccessible workings of neural communications.
+
+\subsection{Historical Overview}
+The endeavor to model neural networks is not new. Groundbreaking models such as the Hodgkin-Huxley and FitzHugh-Nagumo models have been instrumental in advancing our understanding of neural behavior and have set the stage for modern developments in neural modeling.
+
+\subsection{Challenges and Limitations}
+Accurately modeling biological neural networks presents numerous challenges. These include the complexity of neuronal dynamics, the nonlinear nature of neural responses, and the vast interconnectivity within the neural network.
+
+\subsection{Recent Advances}
+Recent advancements in computational power and mathematical methodologies have allowed for the creation of more sophisticated and detailed models of neural networks, pushing the boundaries of what was previously possible.
+
+\subsection{Applications}
+The application of neural network models is vast, ranging from the exploration of neurological disorders, such as epilepsy and Alzheimer’s disease, to the investigation of cognitive processes.
+
+\subsection{Objectives of Your Work}
+The objectives of the presented work are to \ldots (here, you would specify the goals of your own research or modeling approach).
+
+
+
+
+
+
+%----------------------------------------------------------------------------------------
+
+\bibliographystyle{unsrt} % This specifies the style of the bibliography
+\bibliography{/Users/dengkai/workspace/papers/latex/config/ref} % This should match the name of your .bib file without the extension
+\end{document}
+
