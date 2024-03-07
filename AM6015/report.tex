@@ -71,6 +71,13 @@
 
 \date{\normalsize\today} % Today's date or a custom date
 
+% 参考
+
+% https://zhuanlan.zhihu.com/p/66585918
+% https://www.jiqizhixin.com/articles/spiking-neurons
+
+\setlength{\abovecaptionskip}{10pt} % 设置图注上方的间隔为5pt
+\setlength{\belowcaptionskip}{10pt} % 设置图注下方的间隔为-10pt
 
 \begin{document}
 \maketitle % Print the title
@@ -111,8 +118,55 @@ Certainly! Here are some recent significant papers related to the modeling of bi
 These papers offer a blend of practical applications, theoretical understanding, and the latest methodologies in the field. They reflect the current trends in harnessing deep learning and computational models to gain insights into biological neural networks and their functions.
 
 
+
+
+
+
+
+
+
+
+
+
+% 当人们谈及机器学习，深度学习，Geoffrey Hinton、Yann LeCun 和 Yoshua Bengio。 因为这三位科学家在深度学习和神经网络领域做出了突出贡献，特别是在反向传播算法、卷积神经网络、循环神经网络等方面，他们被认为是现代神经网络理论的关键推动者。
+% 今天我们讲点不一样的，我们讲讲，Warren McCulloch 和 Walter Pitts
+
+
+
+
+
+
+
 \subsection{Background Context}
-Neural networks in the biological realm are intricate and complex systems. They consist of neurons that communicate with one another, forming a network that processes information. The functionality and significance of such networks form the bedrock of our understanding of the brain's processing capabilities.
+Biological neural networks are complex networks composed of nerve cells (neurons) in organisms (especially human brains and animal brains) and the connections between them. This network is the basis of the biological nervous system and is responsible for processing and transmitting information, allowing organisms to perceive the environment, make decisions, control movement and perform various complex behaviors.
+
+
+The main features of biological neural networks include:
+Neuron: The basic unit of neural networks. Each neuron consists of a cell body, dendrites, and an axon. Dendrites are responsible for receiving signals from other neurons, while axons are responsible for transmitting signals to other neurons or muscle cells.
+\\Synapse: A connection point between neurons where information is transmitted through chemicals (neurotransmitters) or electrical signals.
+\\Diversity: Biological neural networks contain many types of neurons, which differ according to their structure, function and the neurotransmitters they deliver.
+\\Plasticity: Neural networks are able to change in response to experience, a process called neuroplasticity. It is the basis upon which learning and memory occur.
+\\Parallel processing: Biological neural networks can process large amounts of information simultaneously, thanks to their highly parallel and distributed structure.
+
+\begin{figure}[H]
+    \centering
+    \caption{Human Neural Networks}
+    \includegraphics[width=0.9\textwidth]{./data/neural-netwrok.jpg}
+    \footnotesize{Source:Cajal’s drawing of a Purkinje cell. Notice the complexity and number of dendrite branches..}
+    \label{fig:my_picture}
+\end{figure}
+
+
+
+\begin{figure}[H]
+    \centering
+    \caption{Anatomy of the neuron}
+    \includegraphics[width=0.9\textwidth]{./data/neural.jpg}
+    \footnotesize{Source:“Neurons and glial cells” by OpenStax College, Biology CC BY-NC-SA 3.0 License.}
+    \label{fig:my_picture}
+\end{figure}
+
+
 
 \subsection{Significance of Modeling}
 Modeling serves as a pivotal tool in neuroscience, providing insight into the functionality of the brain and the intricate mechanisms of neural processes. It offers a window into the otherwise inaccessible workings of neural communications.
