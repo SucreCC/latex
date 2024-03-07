@@ -138,15 +138,9 @@ These papers offer a blend of practical applications, theoretical understanding,
 
 
 \subsection{Background Context}
-Biological neural networks are complex networks composed of nerve cells (neurons) in organisms (especially human brains and animal brains) and the connections between them. This network is the basis of the biological nervous system and is responsible for processing and transmitting information, allowing organisms to perceive the environment, make decisions, control movement and perform various complex behaviors.
-
-
-The main features of biological neural networks include:
-Neuron: The basic unit of neural networks. Each neuron consists of a cell body, dendrites, and an axon. Dendrites are responsible for receiving signals from other neurons, while axons are responsible for transmitting signals to other neurons or muscle cells.
-\\Synapse: A connection point between neurons where information is transmitted through chemicals (neurotransmitters) or electrical signals.
-\\Diversity: Biological neural networks contain many types of neurons, which differ according to their structure, function and the neurotransmitters they deliver.
-\\Plasticity: Neural networks are able to change in response to experience, a process called neuroplasticity. It is the basis upon which learning and memory occur.
-\\Parallel processing: Biological neural networks can process large amounts of information simultaneously, thanks to their highly parallel and distributed structure.
+\subsubsection{Anatomy of a Neuron}
+\paragraph{Biological neural networks}
+ are complex networks composed of nerve cells (neurons) in organisms (especially human brains and animal brains) and the connections between them. This network is the basis of the biological nervous system and is responsible for processing and transmitting information, allowing organisms to perceive the environment, make decisions, control movement and perform various complex behaviors.
 
 \begin{figure}[H]
     \centering
@@ -156,6 +150,14 @@ Neuron: The basic unit of neural networks. Each neuron consists of a cell body, 
     \label{fig:my_picture}
 \end{figure}
 
+\paragraph{Neurons}
+receive signals from other neurons through synapses located – not exclusively – on their dendritic tree, which is a complex, branching, sprawling structure. If you are wondering what the king of dendritic complexity is, that would be the Purkinje cell, which may receive up to 100,000 other connections. Dendrites are studded with dendritic spines – little bumps where other neurons make contact with the dendrite.
+
+\vspace{10pt}
+Signals from the dendrites propagate to and converge at the soma – the cell’s body where nucleus and other typical cell organelles live.
+
+\vspace{10pt}
+Coming off the soma is the axon hillock which turns into the axon. The axon meets other neurons at synapses. It allows a neuron to communicate rapidly over long distances without losing signal integrity. To allow signals to travel rapidly, the axon is myelinated – it is covered with interspersed insulators which allows the neuron’s signal to jump between insulated sections. To allow the signal to maintain integrity, the neuron signal in the axon is ‘all-or-nothing’ – it is a rather bit-like impulse, which we will discuss next.
 
 
 \begin{figure}[H]
@@ -165,6 +167,42 @@ Neuron: The basic unit of neural networks. Each neuron consists of a cell body, 
     \footnotesize{Source:“Neurons and glial cells” by OpenStax College, Biology CC BY-NC-SA 3.0 License.}
     \label{fig:my_picture}
 \end{figure}
+
+
+\subsubsection{Physiology of a Neuron}
+\paragraph{The}
+
+ second thing to appreciate about neurons is their specialized physiology — that is the cellular functions of neurons. The most striking feature of neural cellular function is the action potential. This is the mechanism which allows neurons to transmit information reliably over long distances without the transmission attenuating.
+
+\vspace{10pt}
+It is important to remember that neurons bathe in an extracellular solution of mostly water, salts and proteins. The forces caused by the movement of salts into and out of the cell and the different concentrations of these salts is the physical basis of the neuron’s remarkable behavior. There are sodium-potassium pumps which move sodium out of the cell and potassium in, so that the concentration of sodium outside the cell is higher than inside and the concentration of potassium outside the cell is lower then inside.
+
+\vspace{10pt}
+An action potential is a discrete event in which the membrane potential rapidly rises (depolarizes) and then falls (polarizes). This discrete event is all-or-nothing, meaning that if an action potential occurs at one part of the neurons membrane, it will also occur in the neighboring part, and so on until it reaches the axon terminal. Action potentials do not tend to travel backwards, because, once a section of the membrane has fired an action potential, electrochemical-forces hyper-polarize the region of membrane while the channels which were previously open close and become inactive for some duration of time.
+
+\vspace{10pt}
+The action potential is the result of different species of ions traveling across the cell membrane through channels and the activation and inactivation of those channels on different time scales. A stereotypical action potential occurs as follows:
+
+
+
+\begin{itemize}
+    \item \textbf{Equilibrium:} The neuron’s equilibrium membrane potential is near \(-70\) mV — roughly the Nernst Equilibrium of \( E_{K^+} \approx -75 \). At equilibrium, the net current is \(0\) — inward and outward currents are balanced.
+    \item \textbf{Depolarization:} Incoming excitatory signals depolarize the membrane. Quick-to-respond voltage gated \( Na^+ \) channels are activated, and \( Na^+ \) rushes in, pushing the membrane potential higher. Slower-to-respond \( K^+ \) channels open, and \( K^+ \) rushes out, pushing the membrane potential lower.
+    \item \textbf{Amplification:} If the neuron becomes more stimulated or is stimulated rapidly, many more \( Na^+ \) channels are activated than \( K^+ \) channels. This causes a feedback loop where the influx of \( Na^+ \) causes more \( Na^+ \) channels to activate.
+    \item \textbf{Repolarization:} Eventually the membrane potential is near the Nernst Equilibrium of \( Na^+ \) as the sodium channels are maximally open. The slower \( K^+ \) channels catch up to \( Na^+ \), which repolarizes the membrane potential. Meanwhile, the \( Na^+ \) channels become inactive.
+    \item \textbf{Hyper-polarization:} \( K^+ \) channels are open while \( Na^+ \) channels are inactive, causing the membrane potential to dip below its typical equilibrium point, near the \( K^+ \) Nernst equilibrium.
+    \item \textbf{Refractory Period:} The \( Na^+ \) channels, take a while to become deinactivated, meaning after an action potential, they remain incapable of opening again for a period of time. The period in which most \( Na^+ \) channels are called the absolute refractory period (the neuron cannot spike no matter the strength of the stimulus) while the period in which many \( Na^+ \) channels are inactivated is called the relative refractory period (the neuron can spike given a sufficiently strong stimulus).
+\end{itemize}
+
+
+
+
+
+
+
+
+
+
 
 
 
