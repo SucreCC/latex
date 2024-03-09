@@ -37,6 +37,13 @@
 \usepackage{subfigure}
 \usepackage{caption}
 \usepackage{float} 
+\usepackage{url}
+\usepackage[colorlinks,linkcolor=blue]{hyperref}
+\hypersetup{
+    colorlinks=true,
+    linkcolor=blue, % 设置链接颜色为蓝色
+    urlcolor=blue % 设置网址颜色为蓝色
+}
 
 \pagestyle{fancyplain} % Makes all pages in the document conform to the custom headers and footers
 \fancyhead{} % No page header - if you want one, create it in the same way as the footers below
@@ -82,76 +89,44 @@
 \begin{document}
 \maketitle % Print the title
 
-
-
-\section{introduction}
-For a comprehensive understanding of modeling biological neural networks, 
-I recommend reading several seminal works. "Real-time computing without stable
- states: a new framework for neural computation based on perturbations" by Maass 
- et al. (2002) provides a framework for neural computation that departs from 
- traditional stable state computations. Additionally, Markram et al. (1997) 
- have contributed foundational knowledge on synaptic efficacy and its regulation. 
- To delve into contemporary neuromorphic computing systems, Mead (1990) and Meier (2015) 
- offer significant insights. Finally, for advancements in phase-change memory devices and 
- their application to neuromorphic computing, you might consider exploring the works of Tuma et al. 
- (2016) and Burr et al. (2017). These papers will offer a broad and detailed spectrum of 
- knowledge on the subject.
-
- For additional papers on modeling biological neural networks, you may look into 
- "Neuromorphic computing using non-volatile memory" by Burr et al. (2017), 
- which explores the application of non-volatile memory technology in neural network models, 
- and Davies et al. (2018) discuss "Loihi", a neuromorphic manycore processor with on-chip learning 
- capabilities. For a tutorial on brain-inspired computing using phase-change memory devices,
-see the work by Sebastian et al. (2018). These papers are at the forefront of combining neuroscience 
-with advanced computational technologies.
-
-Certainly! Here are some recent significant papers related to the modeling of biological neural networks which you may find valuable:
-
-1. A paper on "Reliable interpretability of biology-inspired deep neural networks" delves into how interpretations from neural networks can be influenced by the initialization of weights and the structure of the network itself. The study emphasizes the need for repeated network training to ensure robustness and reliability of interpretations (Nature Systems Biology and Applications).
-
-2. The article "Deep learning incorporating biologically inspired neural dynamics and in-memory computing" discusses learning spatio-temporal patterns and the use of phase-change memristors, highlighting advancements in neuromorphic computing and its potential applications in biological neural network modeling (Nature Machine Intelligence).
-
-3. In "Biologically informed deep neural network for prostate cancer discovery," researchers have presented a framework for outcome prediction and hypothesis generation in prostate cancer, demonstrating how a deep neural network can incorporate biological pathways to provide insights that could potentially be translated clinically (Nature).
-
-4. For a more theoretical perspective, the arXiv paper "Learning biological neuronal networks with artificial neural networks: neural oscillations" provides insights into the parameters and simulations of spiking neural networks (SNNs), focusing on how they can be used to understand neural oscillations, which are crucial in various cognitive computations.
-
-These papers offer a blend of practical applications, theoretical understanding, and the latest methodologies in the field. They reflect the current trends in harnessing deep learning and computational models to gain insights into biological neural networks and their functions.
-
-
-
-
-
-
-
-
-
-
-
-
-% 当人们谈及机器学习，深度学习，Geoffrey Hinton、Yann LeCun 和 Yoshua Bengio。 因为这三位科学家在深度学习和神经网络领域做出了突出贡献，特别是在反向传播算法、卷积神经网络、循环神经网络等方面，他们被认为是现代神经网络理论的关键推动者。
-% 今天我们讲点不一样的，我们讲讲，Warren McCulloch 和 Walter Pitts
-
-
-
-
-
-
-
+\section[short]{Introduction}
 \subsection{Background Context}
 \subsubsection{Anatomy of a Neuron}
 \paragraph{Biological neural networks}
  are complex networks composed of nerve cells (neurons) in organisms (especially human brains and animal brains) and the connections between them. This network is the basis of the biological nervous system and is responsible for processing and transmitting information, allowing organisms to perceive the environment, make decisions, control movement and perform various complex behaviors.
 
-\begin{figure}[H]
-    \centering
-    \caption{Human Neural Networks}
-    \includegraphics[width=0.9\textwidth]{./data/neural-netwrok.jpg}
-    \footnotesize{Source:Cajal’s drawing of a Purkinje cell. Notice the complexity and number of dendrite branches..}
-    \label{fig:my_picture}
-\end{figure}
+% \begin{figure}[H]
+%     \centering
+%     \includegraphics[scale=0.5]{./data/neural-netwrok.jpg}
+%     \caption{Human Neural Networks}
+%     \label{fig:my_picture}
+%     \vspace{6pt} % Vertical space, optional
+%     \small{Source: Drawing by the Cajal’s}
+% \end{figure}
 
-\paragraph{Neurons}
-receive signals from other neurons through synapses located – not exclusively – on their dendritic tree, which is a complex, branching, sprawling structure. If you are wondering what the king of dendritic complexity is, that would be the Purkinje cell, which may receive up to 100,000 other connections. Dendrites are studded with dendritic spines – little bumps where other neurons make contact with the dendrite.
+% \begin{figure}[H]
+%     \centering
+%     \begin{minipage}[b]{0.45\textwidth}
+%         \centering
+%         \includegraphics[scale=0.4]{./data/neural-netwrok.jpg}
+%         \caption{Human Neural Networks}
+%         \label{fig:my_picture}
+%         \vspace{1pt} % Vertical space, optional
+%         \small{Source: Drawing by the Cajal’s}
+%     \end{minipage}
+%     \centering
+%     \begin{minipage}[b]{0.45\textwidth}
+%         \centering
+%         \includegraphics[scale=0.3]{./data/neural.jpg}
+%         \caption{Anatomy of the neuron}
+%         \label{fig:my_picture}
+%         \vspace{1pt} % Vertical space, optional
+%         \small{Source: Source:“Neurons and glial cells” by OpenStax College, Biology CC BY-NC-SA 3.0 License.}
+%     \end{minipage}
+% \end{figure}
+
+\vspace{10pt}
+Neurons receive signals from other neurons through synapses located – not exclusively – on their dendritic tree, which is a complex, branching, sprawling structure. If you are wondering what the king of dendritic complexity is, that would be the Purkinje cell, which may receive up to 100,000 other connections. Dendrites are studded with dendritic spines – little bumps where other neurons make contact with the dendrite.
 
 \vspace{10pt}
 Signals from the dendrites propagate to and converge at the soma – the cell’s body where nucleus and other typical cell organelles live.
@@ -162,10 +137,11 @@ Coming off the soma is the axon hillock which turns into the axon. The axon meet
 
 \begin{figure}[H]
     \centering
-    \caption{Anatomy of the neuron}
     \includegraphics[width=0.9\textwidth]{./data/neural.jpg}
-    \footnotesize{Source:“Neurons and glial cells” by OpenStax College, Biology CC BY-NC-SA 3.0 License.}
+    \caption{Anatomy of the neuron}
     \label{fig:my_picture}
+    \vspace{6pt} % Vertical space, optional
+    \small{Source: Source:“Neurons and glial cells” by OpenStax College, Biology CC BY-NC-SA 3.0 License.}
 \end{figure}
 
 
@@ -183,6 +159,27 @@ An action potential is a discrete event in which the membrane potential rapidly 
 \vspace{10pt}
 The action potential is the result of different species of ions traveling across the cell membrane through channels and the activation and inactivation of those channels on different time scales. A stereotypical action potential occurs as follows:
 
+\begin{figure}[H]
+    \centering
+    \begin{minipage}[b]{0.45\textwidth}
+      \centering
+      \includegraphics[width=\textwidth]{./data/propagation-of-nerve-impluse.jpg}
+      \caption{Propagation of nerve impluse}
+      \label{fig:exampleA}
+      \vspace{6pt} % Vertical space, optional
+      \small{Source: \href{https://opentextbc.ca/biology/chapter/16-2-how-neurons-communicate/}{Opentex}}
+    \end{minipage}
+    \hfill
+    \begin{minipage}[b]{0.45\textwidth}
+      \centering
+      \includegraphics[width=\textwidth]{./data/neuronal-action-potential.jpg}
+      \caption{Neuronal action potential}
+      \label{fig:exampleB}
+      \vspace{6pt} % Vertical space, optional
+      \small{Source: \href{https://opentextbc.ca/biology/chapter/16-2-how-neurons-communicate/}{Opentex}}
+    \end{minipage}
+\end{figure}
+
 
 
 \begin{itemize}
@@ -196,14 +193,29 @@ The action potential is the result of different species of ions traveling across
 
 
 
+\subsubsection{Spike train}
 
+Spike trains are the language of neurons. People tend to think of spikes as point-events and spike trains as point-processe. We describe these with the neural response function:
 
+\begin{equation}
+    \rho(t) = \sum_{i=1}^{k} \delta(t-t_i)
+\end{equation}
 
+where an impulse is defined as the dirac delta function (which is convenient for counting things):
 
+\begin{equation}
+    \delta(t) = \begin{cases} 1 & \text{if } t = 0, \\ 0 & \text{otherwise} \end{cases}
+\end{equation}
 
+Often, it is useful for analysis to assume spike trains are generated by random processes. Assuming spikes are independent of each other, we can model this point process is a Poisson process, in which we know the probability n spikes occur in the interval $\Delta T$:
 
+\begin{equation}
+    P\{n \text{ spikes occur in } \Delta t\} = \frac{(rt)^n}{n!} \exp(-rt)
+\end{equation}
 
-
+To generate spikes according to a Poisson point process, generate a random number 
+r
+ in a sufficiently small time interval, such that only 1 spike should occur, and check whethe $r < firingRate \Delta T$. However, make sure that $firingRate\Delta T < 1$.
 
 
 \subsection{Significance of Modeling}
@@ -211,6 +223,14 @@ Modeling serves as a pivotal tool in neuroscience, providing insight into the fu
 
 \subsection{Historical Overview}
 The endeavor to model neural networks is not new. Groundbreaking models such as the Hodgkin-Huxley and FitzHugh-Nagumo models have been instrumental in advancing our understanding of neural behavior and have set the stage for modern developments in neural modeling.
+
+
+
+
+
+
+
+
 
 \subsection{Challenges and Limitations}
 Accurately modeling biological neural networks presents numerous challenges. These include the complexity of neuronal dynamics, the nonlinear nature of neural responses, and the vast interconnectivity within the neural network.
@@ -225,7 +245,7 @@ The application of neural network models is vast, ranging from the exploration o
 The objectives of the presented work are to \ldots (here, you would specify the goals of your own research or modeling approach).
 
 
-
+% 人类通过研究碳基生物制造硅基生物
 
 
 
