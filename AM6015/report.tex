@@ -192,7 +192,13 @@ To generate spikes according to a Poisson point process, generate a random numbe
 
 
 
-\subsection{Carbon-based to silicon-based}
+
+
+
+\section{Historical Models}
+
+\subsection{Hodgkin–Huxley model}
+
 The Hodgkin–Huxley model, or conductance-based model, is a mathematical model that describes how action potentials in neurons are initiated and propagated. It is a set of nonlinear differential equations that approximates the electrical engineering characteristics of excitable cells such as neurons and muscle cells. It is a continuous-time dynamical system.
 
 \vspace{10pt}
@@ -239,39 +245,7 @@ Where:
 
 The time-dependent elements of this equation are \( V_{m} \), \( g_{Na} \), and \( g_{K} \), where the last two conductances depend explicitly on the membrane voltage (\( V_{m} \)) as well.
 
-
-
-
-
-
-
-
-
-
-\section{Historical Models}
-
-\subsection{Stage 1 -- The M-P model}
-Since the Spanish anatomist Cajal founded the neuron theory at the end of the 19th century, the biological characteristics and related electrical properties of neurons have been discovered one after another. In 1943, the M-P model of neurons (shown in Figure 1.4) was first proposed in the paper "Logical Activities of Thoughts Contained in Neural Activities" \cite{Mcculloch1854LOGICALCALCULUSIDEAS}. The model was created by psychologists W.S. McCulloch and W.S. McCulloch from the United States. Another mathematician, W.A. Pitts.
-
-\begin{figure}[H]
-    \centering
-    \includegraphics[width=0.9\textwidth]{./data/M-P.jpg}
-    \caption{Schematic diagram of the M-P model of neurons}
-    \label{fig:my_picture}
-    \vspace{1pt} % Vertical space, optional
-    \small{Source: Draw by Kai}
-\end{figure}
-
-In the figure, $x_i$, 1, 2, ..., represents the input signal transmitted from other neurons connected to the current neuron, $w_{ij}$ represents the connection strength or weight from neuron j to neuron i, $\theta_i$ is the neuron The activation threshold or bias of the element, f is called the activation function or transfer function. The output of the neuron $y_i$ can be expressed as follows:
-
-\begin{equation}
-    y_i = f(\sum_{j=i}^{n} w_{ij}x_j-\theta_i)
-\end{equation}
-
-
-This model describes neurons from the perspective of logical functional devices, opening up a path for theoretical research on neural networks. The M-P model is a mathematical simplification of the biological neuron information processing model, and subsequent neural network research work is based on it. 
-
-\subsection{Stage 2 -- Hebb learning rules and Delta learning rules}
+\subsection{Hebb learning rules}
 In 1949, in the book "The Organization of Behavior", the psychologist Donald O. Hebb analyzed the change rules of the connection strength between neurons, and based on this, he proposed the famous Hebb learning rule \cite{Hebb2002OrganizationBehaviorNeuropsychological}. Inspired by Pavlov's conditioned reflex experiments, Hebb believed that if two neurons are fired at the same moment, the connection between them should be strengthened. The Hebb learning rule defined based on this is as follows:
 
 \begin{equation}
@@ -292,7 +266,28 @@ Among them, $\alpha$ is the learning rate of the algorithm, $d_i$ and $y_i$ are 
 
 Intuitively speaking, when the actual output of neuron i is greater than the expected output, the connection weight with the activated neuron is reduced, and the connection weight with the inhibited neuron is increased; when the actual output of neuron i is greater than the expected output If it is small, the connection weight with activated neurons will be increased, while the connection weight with inhibited neurons will be reduced. Through such an adjustment process, neurons will store the correct mapping relationship between input and output in the weight, thus possessing the ability to represent data. The Hebb learning rule and the Delta learning rule are both proposed for a single neuron. The learning rules for parameters in a network composed of neurons will be discussed later. The research work done by the above pioneers paved the way for the emergence of neural computing and inspired many scholars to continue exploring and researching this field.
 
-\subsection{Stage 3 -- Mark I perceptron}
+\subsection{The M-P model}
+Since the Spanish anatomist Cajal founded the neuron theory at the end of the 19th century, the biological characteristics and related electrical properties of neurons have been discovered one after another. In 1943, the M-P model of neurons (shown in Figure 1.4) was first proposed in the paper "Logical Activities of Thoughts Contained in Neural Activities" \cite{Mcculloch1854LOGICALCALCULUSIDEAS}. The model was created by psychologists W.S. McCulloch and W.S. McCulloch from the United States. Another mathematician, W.A. Pitts.
+
+\begin{figure}[H]
+    \centering
+    \includegraphics[width=0.9\textwidth]{./data/M-P.jpg}
+    \caption{Schematic diagram of the M-P model of neurons}
+    \label{fig:my_picture}
+    \vspace{1pt} % Vertical space, optional
+    \small{Source: Draw by Kai}
+\end{figure}
+
+In the figure, $x_i$, 1, 2, ..., represents the input signal transmitted from other neurons connected to the current neuron, $w_{ij}$ represents the connection strength or weight from neuron j to neuron i, $\theta_i$ is the neuron The activation threshold or bias of the element, f is called the activation function or transfer function. The output of the neuron $y_i$ can be expressed as follows:
+
+\begin{equation}
+    y_i = f(\sum_{j=i}^{n} w_{ij}x_j-\theta_i)
+\end{equation}
+
+
+This model describes neurons from the perspective of logical functional devices, opening up a path for theoretical research on neural networks. The M-P model is a mathematical simplification of the biological neuron information processing model, and subsequent neural network research work is based on it. 
+
+\subsection{Mark I perceptron}
 
 
 In 1958, F. Rosenblatt invented the perceptron model (Perceptron), which was the first model in history to introduce the concept of neural networks into electronic computer processing, marking a new stage in the development of neural networks. The perceptron is a binary linear classification model that determines the output of a two-class model by weighted summation of the input features followed by an activation function. The activation function is a step function, used to determine whether the input value is positive or negative. The mathematical representation of the perceptron model is as follows, where \( x \) represents the input vector, \( w \) represents the weight vector, \( b \) represents the bias term, and \( y \) is the output value, which can be \(+1\) or \(-1\), with the mathematical representation being:
@@ -360,8 +355,9 @@ b = \sum_{i=1}^{n} a_i y_i
 
 where \( a_i = \eta n_i \), and \( n_i \) is the number of times the perceptron misclassified the \( i \)-th example. The perceptron algorithm is named after the psychologist Frank Rosenblatt, who, along with engineers B. Widrow and M. Hoff, adapted the ADALINE (ADAptive LINear Element) from the model of the same name developed by H. Steinbuch.
 
+\subsection{Delta learning rules}
 
-\subsection{Stage 4 -- Hopfield neural network model}
+\subsection{Hopfield neural network model}
 The next significant advancement in the field of neural networks occurred in 1969 when M. Minsky and S. Papert pointed out the limitations of the perceptron in their book "Perceptrons," demonstrating that it was incapable of processing the XOR problem. However, this criticism also motivated further research into neural networks with additional layers, leading to the development of multilayer networks. The key breakthrough was the introduction of the "backpropagation" algorithm that enabled the training of multilayer networks.
 
 A single-layer perceptron can only solve problems linearly separable because it is essentially a linear classifier. It was realized that to overcome the limitations of the perceptron and solve non-linearly separable problems, one must utilize multilayer networks and non-linear activation functions. The first step in this direction was taken by introducing the concept of a neural network capable of associative memory, which led to the invention of the Hopfield network by J.J. Hopfield in 1982.
@@ -400,7 +396,7 @@ The Hopfield network is a recurrent neural network, which is to say, it possesse
 
 Hopfield's paper not only triggered the renaissance of interest in neural networks but also led to the exploration of new types of neural networks. One significant development in this area was the Boltzmann machine, introduced by G.E. Hinton, T.J. Sejnowski, and D.H. Ackley in 1983. This machine was an extension of the Hopfield network and could solve problems that Hopfield networks could not.
 
-\subsection{Stage 5 -- Boltzmann machine}
+\subsection{Boltzmann machine}
 
 A Boltzmann machine is similar to a Hopfield network in that it is a network of units with a global energy function. However, unlike the Hopfield network, a Boltzmann machine has stochastic units and operates based on probabilistic rather than deterministic rules. This means that a Boltzmann machine can escape from local minima, a feature that is particularly beneficial when dealing with optimization problems.
 
