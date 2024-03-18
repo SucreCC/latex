@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.25 (TeX Live 2023) (preloaded format=pdflatex 2023.7.12)  18 MAR 2024 11:36
+This is pdfTeX, Version 3.141592653-2.6-1.40.25 (TeX Live 2023) (preloaded format=pdflatex 2023.7.12)  18 MAR 2024 12:20
 entering extended mode
  restricted \write18 enabled.
  file:line:error style messages enabled.
@@ -841,27 +841,23 @@ Overfull \hbox (14.27231pt too wide) in paragraph at lines 162--163
  []
 
 [4 <./data/propagation-of-nerve-impluse.jpg> <./data/neuronal-action-potential.jpg>]
-<./data/Hodgkin-Huxley.png, id=67, 351.3125pt x 248.93pt>
-File: ./data/Hodgkin-Huxley.png Graphic file (type png)
-<use ./data/Hodgkin-Huxley.png>
-Package pdftex.def Info: ./data/Hodgkin-Huxley.png  used on input line 209.
-(pdftex.def)             Requested size: 376.42744pt x 266.74748pt.
-
-
-LaTeX Warning: `h' float specifier changed to `ht'.
-
-[5] [6 <./data/Hodgkin-Huxley.png>]
-<./data/M-P.jpg, id=91, 461.725pt x 426.59375pt>
+<./data/M-P.jpg, id=68, 461.725pt x 426.59375pt>
 File: ./data/M-P.jpg Graphic file (type jpg)
 <use ./data/M-P.jpg>
-Package pdftex.def Info: ./data/M-P.jpg  used on input line 274.
+Package pdftex.def Info: ./data/M-P.jpg  used on input line 205.
 (pdftex.def)             Requested size: 376.42744pt x 347.78474pt.
- [7] [8 <./data/M-P.jpg>] [9] [10] [11]
-Overfull \hbox (2.0264pt too wide) in paragraph at lines 417--418
+ [5] [6 <./data/M-P.jpg>] [7]
+<./data/Hodgkin-Huxley.png, id=95, 351.3125pt x 248.93pt>
+File: ./data/Hodgkin-Huxley.png Graphic file (type png)
+<use ./data/Hodgkin-Huxley.png>
+Package pdftex.def Info: ./data/Hodgkin-Huxley.png  used on input line 253.
+(pdftex.def)             Requested size: 376.42744pt x 266.74748pt.
+ [8 <./data/Hodgkin-Huxley.png>] [9] [10] [11] [12]
+Overfull \hbox (2.0264pt too wide) in paragraph at lines 418--419
 []\T1/futs/b/n/10.95 AI: \T1/futs/m/n/10.95 Bi-o-log-i-cal neu-ral net-works pro-vide ar-ti-fi-cial in-tel-li-gence with a frame-work that mim-
  []
 
-[12] [13] (./report.bbl
+[13] (./report.bbl
 
 Class scrartcl Warning: Incompatible usage of \@ssect detected.
 (scrartcl)              You've used the KOMA-Script implementation of \@ssect
@@ -881,13 +877,13 @@ Package rerunfilecheck Info: File `report.out' has not changed.
 Here is how much of TeX's memory you used:
  18880 strings out of 476025
  346360 string characters out of 5790017
- 1864388 words of memory out of 5000000
+ 1863388 words of memory out of 5000000
  38886 multiletter control sequences out of 15000+600000
  609827 words of font info for 135 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
  108i,12n,106p,10646b,531s stack positions out of 10000i,1000n,20000p,200000b,200000s
 </usr/local/texlive/2023/texmf-dist/fonts/type1/public/fourier/fourier-mex.pfb></usr/local/texlive/2023/texmf-dist/fonts/type1/public/fourier/fourier-ml.pfb></usr/local/texlive/2023/texmf-dist/fonts/type1/public/fourier/fourier-mlit.pfb></usr/local/texlive/2023/texmf-dist/fonts/type1/public/fourier/fourier-ms.pfb></usr/local/texlive/2023/texmf-dist/fonts/type1/adobe/utopia/putb8a.pfb></usr/local/texlive/2023/texmf-dist/fonts/type1/adobe/utopia/putr8a.pfb></usr/local/texlive/2023/texmf-dist/fonts/type1/adobe/utopia/putri8a.pfb></usr/local/texlive/2023/texmf-dist/fonts/type1/public/cm-super/sfsx1095.pfb>
-Output written on report.pdf (14 pages, 583373 bytes).
+Output written on report.pdf (14 pages, 583756 bytes).
 PDF statistics:
  244 PDF objects out of 1000 (max. 8388607)
  203 compressed objects within 3 object streams

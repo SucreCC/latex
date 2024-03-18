@@ -8,10 +8,10 @@
 \contentsline {section}{\numberline {3}Historical Models}{5}{section.3}%
 \contentsline {subsection}{\numberline {3.1}The M-P model}{5}{subsection.3.1}%
 \contentsline {subsection}{\numberline {3.2}Hebb learning rules}{7}{subsection.3.2}%
-\contentsline {subsection}{\numberline {3.3}Hodgkin–Huxley model}{9}{subsection.3.3}%
+\contentsline {subsection}{\numberline {3.3}Hodgkin–Huxley model}{7}{subsection.3.3}%
 \contentsline {subsection}{\numberline {3.4}Mark I perceptron}{9}{subsection.3.4}%
-\contentsline {subsection}{\numberline {3.5}Delta learning rules}{10}{subsection.3.5}%
-\contentsline {subsection}{\numberline {3.6}Hopfield neural network model}{10}{subsection.3.6}%
+\contentsline {subsection}{\numberline {3.5}Delta learning rules}{11}{subsection.3.5}%
+\contentsline {subsection}{\numberline {3.6}Hopfield neural network model}{11}{subsection.3.6}%
 \contentsline {subsection}{\numberline {3.7}Boltzmann machine}{12}{subsection.3.7}%
 \contentsline {section}{\numberline {4}Applications}{12}{section.4}%
 \providecommand \tocbasic@end@toc@file {}\tocbasic@end@toc@file 
