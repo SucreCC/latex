@@ -15,4 +15,24 @@ A.~L. Hodgkin and Pitts A.~F.~Huxley.
 \newblock A quantitative description of membrane current and its application to conduction and excitation in nerve.
 \newblock August 1952.
 
+\bibitem{Rosenblatt1958PerceptronProbabilisticModel}
+F.~Rosenblatt.
+\newblock The perceptron: {{A}} probabilistic model for information storage and organization in the brain.
+\newblock {\em Psychological Review}, 65(6):386--408, 1958.
+
+\bibitem{BernardWidrow1960AdaptiveSwitchingCircuits}
+Bernard Widrow and Marcian E.~Hoff Jr.
+\newblock Adaptive {{Switching Circuits}}.
+\newblock 1960.
+
+\bibitem{JJHopfield1982NeuralNetworksPhysical}
+J~J Hopfield.
+\newblock Neural networks and physical systems with emergent collective computational abilities.
+\newblock April 1982.
+
+\bibitem{G.E.Hinton1986LearningAndfRelearning}
+G.~E. Hinton and T.~J. Sejnowski.
+\newblock Learning andf {{Relearning}} in {{Boltzmann Machines}}.
+\newblock 1:282--317, 1986.
+
 \end{thebibliography}

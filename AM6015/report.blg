@@ -5,45 +5,48 @@ The style file: unsrt.bst
 Database file #1: /Users/dengkai/workspace/papers/latex/config/ref.bib
 Warning--empty journal in Mcculloch1854LOGICALCALCULUSIDEAS
 Warning--empty journal in A.L.Hodgkin1952QuantitativeDescriptionMembrane
-You've used 3 entries,
+Warning--empty journal in BernardWidrow1960AdaptiveSwitchingCircuits
+Warning--empty journal in JJHopfield1982NeuralNetworksPhysical
+Warning--empty journal in G.E.Hinton1986LearningAndfRelearning
+You've used 7 entries,
             1791 wiz_defined-function locations,
-            462 strings with 4162 characters,
-and the built_in function-call counts, 466 in all, are:
-= -- 35
-> -- 20
+            487 strings with 4891 characters,
+and the built_in function-call counts, 1198 in all, are:
+= -- 102
+> -- 44
 < -- 0
-+ -- 8
-- -- 5
-* -- 20
-:= -- 85
-add.period$ -- 9
-call.type$ -- 3
-change.case$ -- 2
++ -- 18
+- -- 11
+* -- 63
+:= -- 204
+add.period$ -- 21
+call.type$ -- 7
+change.case$ -- 6
 chr.to.int$ -- 0
-cite$ -- 5
-duplicate$ -- 26
-empty$ -- 48
-format.name$ -- 5
-if$ -- 99
+cite$ -- 12
+duplicate$ -- 60
+empty$ -- 123
+format.name$ -- 11
+if$ -- 255
 int.to.chr$ -- 0
-int.to.str$ -- 3
-missing$ -- 4
-newline$ -- 18
-num.names$ -- 3
-pop$ -- 16
+int.to.str$ -- 7
+missing$ -- 8
+newline$ -- 38
+num.names$ -- 7
+pop$ -- 30
 preamble$ -- 1
 purify$ -- 0
 quote$ -- 0
-skip$ -- 10
+skip$ -- 24
 stack$ -- 0
-substring$ -- 0
-swap$ -- 1
+substring$ -- 50
+swap$ -- 2
 text.length$ -- 0
 text.prefix$ -- 0
 top$ -- 0
 type$ -- 0
-warning$ -- 2
-while$ -- 3
-width$ -- 4
-write$ -- 31
-(There were 2 warnings)
+warning$ -- 5
+while$ -- 11
+width$ -- 8
+write$ -- 70
+(There were 5 warnings)

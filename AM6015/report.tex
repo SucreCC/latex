@@ -292,7 +292,7 @@ The time-dependent elements of this equation are \( V_{m} \), \( g_{Na} \), and 
 \subsection{Mark I perceptron}
 
 
-In 1958, F. Rosenblatt invented the perceptron model (Perceptron), which was the first model in history to introduce the concept of neural networks into electronic computer processing, marking a new stage in the development of neural networks. The perceptron is a binary linear classification model that determines the output of a two-class model by weighted summation of the input features followed by an activation function. The activation function is a step function, used to determine whether the input value is positive or negative. The mathematical representation of the perceptron model is as follows, where \( x \) represents the input vector, \( w \) represents the weight vector, \( b \) represents the bias term, and \( y \) is the output value, which can be \(+1\) or \(-1\), with the mathematical representation being:
+In 1958, F. Rosenblatt invented the perceptron model (Perceptron), which was the first model in history to introduce the concept of neural networks into electronic computer processing, marking a new stage in the development of neural networks \cite{Rosenblatt1958PerceptronProbabilisticModel}. The perceptron is a binary linear classification model that determines the output of a two-class model by weighted summation of the input features followed by an activation function. The activation function is a step function, used to determine whether the input value is positive or negative. The mathematical representation of the perceptron model is as follows, where \( x \) represents the input vector, \( w \) represents the weight vector, \( b \) represents the bias term, and \( y \) is the output value, which can be \(+1\) or \(-1\), with the mathematical representation being:
 
 
 \begin{equation}
@@ -359,8 +359,35 @@ where \( a_i = \eta n_i \), and \( n_i \) is the number of times the perceptron 
 
 \subsection{Delta learning rules}
 
+The basic idea of the delta learning rule is to reduce the difference between the network output and the target output by continuously adjusting the network weights. It determines the adjustment direction and size of the weight by calculating the gradient of the error. At each iteration, the weights are adjusted slightly in the opposite direction of the gradient to gradually reduce the error.
+A common delta learning rule is a variant of the delta rule, called the delta rule or Widrow-Hoff rule \cite{BernardWidrow1960AdaptiveSwitchingCircuits}. This rule is based on the perceptron model and updates the weights based on the difference between the actual output and the desired output. The size of the update depends on the size of the input signal as well as the error signal.
+
+The Delta learning rule, also known as the Widrow-Hoff rule, is a simple algorithm used for adjusting the weights of connections in a neural network during training. The formula for updating the weights in the Delta learning rule is as follows:
+
+\[ \Delta w_{ij} = \eta \cdot (d_j - y_j) \cdot x_i \]
+
+Where:
+
+\begin{itemize}
+    \item \textbf{ $\Delta w_{ij}$:} is the change in weight between neuron \( i \) and neuron \( j \).
+    \item \textbf{$\eta $:} is the learning rate, which controls the step size of the weight update.
+    \item \textbf{ $d_{j}$:} is the target output for neuron \( j \).
+    \item \textbf{$y_j$:} is the actual output of neuron \( j \).
+    \item \textbf{$x_i$:} is the input from neuron \( i \) to neuron \( j \).
+\end{itemize}
+
+This formula calculates the change in weight \( \Delta w_{ij} \) based on the error between the target output \( d_j \) and the actual output \( y_j \), multiplied by the input \( x_i \) and the learning rate \( \eta \). The weight update is applied to all connections in the network during each training iteration.
+
+
+Delta learning rules are widely used in neural network training, especially in supervised learning tasks such as classification and regression. It provides an effective method for neural networks to automatically adjust weights to gradually improve the performance and accuracy of the network.
+
+
+
+
+
+
 \subsection{Hopfield neural network model}
-The next significant advancement in the field of neural networks occurred in 1969 when M. Minsky and S. Papert pointed out the limitations of the perceptron in their book "Perceptrons," demonstrating that it was incapable of processing the XOR problem. However, this criticism also motivated further research into neural networks with additional layers, leading to the development of multilayer networks. The key breakthrough was the introduction of the "backpropagation" algorithm that enabled the training of multilayer networks.
+The next significant advancement in the field of neural networks occurred in 1969 when M. Minsky and S \cite{JJHopfield1982NeuralNetworksPhysical}. Papert pointed out the limitations of the perceptron in their book "Perceptrons," demonstrating that it was incapable of processing the XOR problem. However, this criticism also motivated further research into neural networks with additional layers, leading to the development of multilayer networks. The key breakthrough was the introduction of the "backpropagation" algorithm that enabled the training of multilayer networks.
 
 A single-layer perceptron can only solve problems linearly separable because it is essentially a linear classifier. It was realized that to overcome the limitations of the perceptron and solve non-linearly separable problems, one must utilize multilayer networks and non-linear activation functions. The first step in this direction was taken by introducing the concept of a neural network capable of associative memory, which led to the invention of the Hopfield network by J.J. Hopfield in 1982.
 
@@ -400,7 +427,7 @@ Hopfield's paper not only triggered the renaissance of interest in neural networ
 
 \subsection{Boltzmann machine}
 
-A Boltzmann machine is similar to a Hopfield network in that it is a network of units with a global energy function. However, unlike the Hopfield network, a Boltzmann machine has stochastic units and operates based on probabilistic rather than deterministic rules. This means that a Boltzmann machine can escape from local minima, a feature that is particularly beneficial when dealing with optimization problems.
+A Boltzmann machine is similar to a Hopfield network in that it is a network of units with a global energy function \cite{G.E.Hinton1986LearningAndfRelearning}. However, unlike the Hopfield network, a Boltzmann machine has stochastic units and operates based on probabilistic rather than deterministic rules. This means that a Boltzmann machine can escape from local minima, a feature that is particularly beneficial when dealing with optimization problems.
 
 A special case of the Boltzmann machine is the Restricted Boltzmann Machine (RBM), which constrains the connections between units to form a bipartite graph. This constraint simplifies the learning algorithm and makes it more efficient. RBMs have found a wide range of applications, particularly in the development of deep learning algorithms. For instance, they can be used to pre-train the layers of a deep neural network, improving the efficiency and effectiveness of the training process.
 
