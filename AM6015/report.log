@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.25 (TeX Live 2023) (preloaded format=pdflatex 2023.7.12)  18 MAR 2024 15:14
+This is pdfTeX, Version 3.141592653-2.6-1.40.25 (TeX Live 2023) (preloaded format=pdflatex 2023.7.12)  18 MAR 2024 16:03
 entering extended mode
  restricted \write18 enabled.
  file:line:error style messages enabled.
@@ -653,7 +653,7 @@ File: pgfsysprotocol.code.tex 2023-01-15 v3.1.10 (3.1.10)
 )) (/usr/local/texlive/2023/texmf-dist/tex/latex/tools/indentfirst.sty
 Package: indentfirst 1995/11/23 v1.03 Indent first paragraph (DPC)
 )
-Package hyperref Info: Option `colorlinks' set `true' on input line 48.
+Package hyperref Info: Option `colorlinks' set `true' on input line 49.
  (./report.aux
 
 LaTeX Warning: Label `fig:my_picture' multiply defined.
@@ -664,53 +664,53 @@ LaTeX Warning: Label `fig:my_picture' multiply defined.
 )
 \openout1 = `report.aux'.
 
-LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 91.
-LaTeX Font Info:    ... okay on input line 91.
-LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 91.
-LaTeX Font Info:    ... okay on input line 91.
-LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 91.
-LaTeX Font Info:    ... okay on input line 91.
-LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 91.
-LaTeX Font Info:    ... okay on input line 91.
-LaTeX Font Info:    Checking defaults for TS1/cmr/m/n on input line 91.
-LaTeX Font Info:    ... okay on input line 91.
-LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 91.
-LaTeX Font Info:    ... okay on input line 91.
-LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 91.
-LaTeX Font Info:    ... okay on input line 91.
-LaTeX Font Info:    Checking defaults for FML/futm/m/it on input line 91.
-LaTeX Font Info:    Trying to load font information for FML+futm on input line 91.
+LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 92.
+LaTeX Font Info:    ... okay on input line 92.
+LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 92.
+LaTeX Font Info:    ... okay on input line 92.
+LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 92.
+LaTeX Font Info:    ... okay on input line 92.
+LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 92.
+LaTeX Font Info:    ... okay on input line 92.
+LaTeX Font Info:    Checking defaults for TS1/cmr/m/n on input line 92.
+LaTeX Font Info:    ... okay on input line 92.
+LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 92.
+LaTeX Font Info:    ... okay on input line 92.
+LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 92.
+LaTeX Font Info:    ... okay on input line 92.
+LaTeX Font Info:    Checking defaults for FML/futm/m/it on input line 92.
+LaTeX Font Info:    Trying to load font information for FML+futm on input line 92.
  (/usr/local/texlive/2023/texmf-dist/tex/latex/fourier/fmlfutm.fd
 File: fmlfutm.fd 2004/10/30 Fontinst v1.926 font definitions for FML/futm.
 )
-LaTeX Font Info:    ... okay on input line 91.
-LaTeX Font Info:    Checking defaults for FMS/futm/m/n on input line 91.
-LaTeX Font Info:    Trying to load font information for FMS+futm on input line 91.
+LaTeX Font Info:    ... okay on input line 92.
+LaTeX Font Info:    Checking defaults for FMS/futm/m/n on input line 92.
+LaTeX Font Info:    Trying to load font information for FMS+futm on input line 92.
  (/usr/local/texlive/2023/texmf-dist/tex/latex/fourier/fmsfutm.fd
 File: fmsfutm.fd 2004/10/30 Fontinst v1.926 font definitions for FMS/futm.
 )
-LaTeX Font Info:    ... okay on input line 91.
-LaTeX Font Info:    Checking defaults for FMX/futm/m/n on input line 91.
-LaTeX Font Info:    Trying to load font information for FMX+futm on input line 91.
+LaTeX Font Info:    ... okay on input line 92.
+LaTeX Font Info:    Checking defaults for FMX/futm/m/n on input line 92.
+LaTeX Font Info:    Trying to load font information for FMX+futm on input line 92.
  (/usr/local/texlive/2023/texmf-dist/tex/latex/fourier/fmxfutm.fd
 File: fmxfutm.fd futm-extension
 )
-LaTeX Font Info:    ... okay on input line 91.
-LaTeX Font Info:    Checking defaults for PD1/pdf/m/n on input line 91.
-LaTeX Font Info:    ... okay on input line 91.
-LaTeX Font Info:    Checking defaults for PU/pdf/m/n on input line 91.
-LaTeX Font Info:    ... okay on input line 91.
-Package scrbase Info: activating english \abstractname on input line 91.
-Package scrbase Info: activating english \partname on input line 91.
-Package scrbase Info: activating english \figurename on input line 91.
-Package scrbase Info: activating english \tablename on input line 91.
-Package scrbase Info: activating english \contentsname on input line 91.
-Package scrbase Info: activating english \listfigurename on input line 91.
-Package scrbase Info: activating english \listtablename on input line 91.
-Package scrbase Info: activating english \refname on input line 91.
-Package scrbase Info: activating english \indexname on input line 91.
-LaTeX Font Info:    Redeclaring math accent \widehat on input line 91.
-LaTeX Font Info:    Redeclaring math accent \widetilde on input line 91.
+LaTeX Font Info:    ... okay on input line 92.
+LaTeX Font Info:    Checking defaults for PD1/pdf/m/n on input line 92.
+LaTeX Font Info:    ... okay on input line 92.
+LaTeX Font Info:    Checking defaults for PU/pdf/m/n on input line 92.
+LaTeX Font Info:    ... okay on input line 92.
+Package scrbase Info: activating english \abstractname on input line 92.
+Package scrbase Info: activating english \partname on input line 92.
+Package scrbase Info: activating english \figurename on input line 92.
+Package scrbase Info: activating english \tablename on input line 92.
+Package scrbase Info: activating english \contentsname on input line 92.
+Package scrbase Info: activating english \listfigurename on input line 92.
+Package scrbase Info: activating english \listtablename on input line 92.
+Package scrbase Info: activating english \refname on input line 92.
+Package scrbase Info: activating english \indexname on input line 92.
+LaTeX Font Info:    Redeclaring math accent \widehat on input line 92.
+LaTeX Font Info:    Redeclaring math accent \widetilde on input line 92.
  (/usr/local/texlive/2023/texmf-dist/tex/context/base/mkii/supp-pdf.mkii
 [Loading MPS to PDF converter (version 2006.09.02).]
 \scratchcounter=\count306
@@ -734,7 +734,7 @@ Package caption Info: Begin \AtBeginDocument code.
 Package caption Info: float package is loaded.
 Package caption Info: hyperref package is loaded.
 Package caption Info: End \AtBeginDocument code.
-Package hyperref Info: Link coloring ON on input line 91.
+Package hyperref Info: Link coloring ON on input line 92.
  (./report.out) (./report.out)
 \@outlinefile=\write4
 \openout4 = `report.out'.
@@ -746,38 +746,38 @@ Class scrartcl Info: loading recommended package `bookmark'.
 (scrartcl)           `bookmarkpackage=false' before \begin{document} and
 (scrartcl)           you can avoid this message adding:
 (scrartcl)             \usepackage{bookmark}
-(scrartcl)           before \begin{document} on input line 91.
+(scrartcl)           before \begin{document} on input line 92.
  (/usr/local/texlive/2023/texmf-dist/tex/latex/bookmark/bookmark.sty
 Package: bookmark 2020-11-06 v1.29 PDF bookmarks (HO)
  (/usr/local/texlive/2023/texmf-dist/tex/latex/bookmark/bkm-pdftex.def
 File: bkm-pdftex.def 2020-11-06 v1.29 bookmark driver for pdfTeX (HO)
 \BKM@id=\count312
 ))
-LaTeX Font Info:    Trying to load font information for T1+cmss on input line 93.
+LaTeX Font Info:    Trying to load font information for T1+cmss on input line 94.
  (/usr/local/texlive/2023/texmf-dist/tex/latex/base/t1cmss.fd
 File: t1cmss.fd 2022/07/10 v2.5l Standard LaTeX font definitions
 )
-LaTeX Font Info:    Trying to load font information for FML+futmi on input line 93.
+LaTeX Font Info:    Trying to load font information for FML+futmi on input line 94.
  (/usr/local/texlive/2023/texmf-dist/tex/latex/fourier/fmlfutmi.fd
 File: fmlfutmi.fd 2004/10/30 Fontinst v1.926 font definitions for FML/futmi.
 )
 LaTeX Font Info:    Font shape `FMX/futm/m/n' will be
-(Font)              scaled to size 13.24796pt on input line 93.
+(Font)              scaled to size 13.24796pt on input line 94.
 LaTeX Font Info:    Font shape `FMX/futm/m/n' will be
-(Font)              scaled to size 9.19998pt on input line 93.
+(Font)              scaled to size 9.19998pt on input line 94.
 LaTeX Font Info:    Font shape `FMX/futm/m/n' will be
-(Font)              scaled to size 7.35999pt on input line 93.
+(Font)              scaled to size 7.35999pt on input line 94.
 LaTeX Font Info:    Font shape `U/futm/m/n' will be
-(Font)              scaled to size 13.24796pt on input line 93.
+(Font)              scaled to size 13.24796pt on input line 94.
 LaTeX Font Info:    Font shape `U/futm/m/n' will be
-(Font)              scaled to size 9.19998pt on input line 93.
+(Font)              scaled to size 9.19998pt on input line 94.
 LaTeX Font Info:    Font shape `U/futm/m/n' will be
-(Font)              scaled to size 7.35999pt on input line 93.
-LaTeX Font Info:    Trying to load font information for U+msa on input line 93.
+(Font)              scaled to size 7.35999pt on input line 94.
+LaTeX Font Info:    Trying to load font information for U+msa on input line 94.
  (/usr/local/texlive/2023/texmf-dist/tex/latex/amsfonts/umsa.fd
 File: umsa.fd 2013/01/14 v3.01 AMS symbols A
 )
-LaTeX Font Info:    Trying to load font information for U+msb on input line 93.
+LaTeX Font Info:    Trying to load font information for U+msb on input line 94.
  (/usr/local/texlive/2023/texmf-dist/tex/latex/amsfonts/umsb.fd
 File: umsb.fd 2013/01/14 v3.01 AMS symbols B
 )
@@ -786,7 +786,7 @@ Class scrartcl Warning: Incompatible usage of \@ssect detected.
 (scrartcl)              You've used the KOMA-Script implementation of \@ssect
 (scrartcl)              from within a non compatible caller, that does not
 (scrartcl)              \scr@s@ct@@nn@m@ locally.
-(scrartcl)              This could result in several error messages on input line 94.
+(scrartcl)              This could result in several error messages on input line 95.
 
 (./report.toc
 LaTeX Font Info:    Font shape `FMX/futm/m/n' will be
@@ -809,14 +809,14 @@ LaTeX Font Info:    Font shape `U/futm/m/n' will be
 
 
 {/usr/local/texlive/2023/texmf-var/fonts/map/pdftex/updmap/pdftex.map}{/usr/local/texlive/2023/texmf-dist/fonts/enc/dvips/base/8r.enc}{/usr/local/texlive/2023/texmf-dist/fonts/enc/dvips/cm-super/cm-super-t1.enc}]
-Overfull \hbox (7.62186pt too wide) in paragraph at lines 98--100
+Overfull \hbox (7.62186pt too wide) in paragraph at lines 99--101
 \T1/futs/m/n/10.95 or-gan-isms, cru-cial for pro-cess-ing and trans-mit-ting in-for-ma-tion, en-abling per-cep-tion, decision-
  []
 
 <./data/neural.jpg, id=43, 770.88pt x 574.145pt>
 File: ./data/neural.jpg Graphic file (type jpg)
 <use ./data/neural.jpg>
-Package pdftex.def Info: ./data/neural.jpg  used on input line 117.
+Package pdftex.def Info: ./data/neural.jpg  used on input line 118.
 (pdftex.def)             Requested size: 292.7776pt x 218.05472pt.
 [2
 
@@ -824,19 +824,19 @@ Package pdftex.def Info: ./data/neural.jpg  used on input line 117.
 <./data/propagation-of-nerve-impluse.jpg, id=48, 941.5175pt x 632.3625pt>
 File: ./data/propagation-of-nerve-impluse.jpg Graphic file (type jpg)
 <use ./data/propagation-of-nerve-impluse.jpg>
-Package pdftex.def Info: ./data/propagation-of-nerve-impluse.jpg  used on input line 143.
+Package pdftex.def Info: ./data/propagation-of-nerve-impluse.jpg  used on input line 144.
 (pdftex.def)             Requested size: 188.21371pt x 126.41235pt.
 <./data/neuronal-action-potential.jpg, id=50, 485.815pt x 321.2pt>
 File: ./data/neuronal-action-potential.jpg Graphic file (type jpg)
 <use ./data/neuronal-action-potential.jpg>
-Package pdftex.def Info: ./data/neuronal-action-potential.jpg  used on input line 152.
+Package pdftex.def Info: ./data/neuronal-action-potential.jpg  used on input line 153.
 (pdftex.def)             Requested size: 188.21371pt x 124.4343pt.
  [3 <./data/neural.jpg (PNG copy)>]
-LaTeX Font Info:    Trying to load font information for TS1+futs on input line 161.
+LaTeX Font Info:    Trying to load font information for TS1+futs on input line 162.
  (/usr/local/texlive/2023/texmf-dist/tex/latex/fourier/ts1futs.fd
 File: ts1futs.fd 2003/09/14 Fontinst v1.801 font definitions for TS1/futs.
 )
-Overfull \hbox (14.27231pt too wide) in paragraph at lines 162--163
+Overfull \hbox (14.27231pt too wide) in paragraph at lines 163--164
 []\T1/futs/b/n/10.95 Depolarization: \T1/futs/m/n/10.95 In-com-ing ex-ci-ta-tory sig-nals de-po-lar-ize the mem-brane. Quick-to-respond
  []
 
@@ -844,16 +844,16 @@ Overfull \hbox (14.27231pt too wide) in paragraph at lines 162--163
 <./data/M-P.jpg, id=68, 461.725pt x 426.59375pt>
 File: ./data/M-P.jpg Graphic file (type jpg)
 <use ./data/M-P.jpg>
-Package pdftex.def Info: ./data/M-P.jpg  used on input line 205.
+Package pdftex.def Info: ./data/M-P.jpg  used on input line 206.
 (pdftex.def)             Requested size: 376.42744pt x 347.78474pt.
  [5] [6 <./data/M-P.jpg>] [7]
 <./data/Hodgkin-Huxley.png, id=97, 351.3125pt x 248.93pt>
 File: ./data/Hodgkin-Huxley.png Graphic file (type png)
 <use ./data/Hodgkin-Huxley.png>
-Package pdftex.def Info: ./data/Hodgkin-Huxley.png  used on input line 253.
+Package pdftex.def Info: ./data/Hodgkin-Huxley.png  used on input line 254.
 (pdftex.def)             Requested size: 376.42744pt x 266.74748pt.
  [8 <./data/Hodgkin-Huxley.png>] [9] [10] [11] [12]
-Overfull \hbox (2.0264pt too wide) in paragraph at lines 445--446
+Overfull \hbox (2.0264pt too wide) in paragraph at lines 446--447
 []\T1/futs/b/n/10.95 AI: \T1/futs/m/n/10.95 Bi-o-log-i-cal neu-ral net-works pro-vide ar-ti-fi-cial in-tel-li-gence with a frame-work that mim-
  []
 
@@ -883,7 +883,7 @@ Here is how much of TeX's memory you used:
  1141 hyphenation exceptions out of 8191
  108i,12n,106p,10646b,531s stack positions out of 10000i,1000n,20000p,200000b,200000s
 </usr/local/texlive/2023/texmf-dist/fonts/type1/public/fourier/fourier-mex.pfb></usr/local/texlive/2023/texmf-dist/fonts/type1/public/fourier/fourier-ml.pfb></usr/local/texlive/2023/texmf-dist/fonts/type1/public/fourier/fourier-mlit.pfb></usr/local/texlive/2023/texmf-dist/fonts/type1/public/fourier/fourier-ms.pfb></usr/local/texlive/2023/texmf-dist/fonts/type1/adobe/utopia/putb8a.pfb></usr/local/texlive/2023/texmf-dist/fonts/type1/adobe/utopia/putr8a.pfb></usr/local/texlive/2023/texmf-dist/fonts/type1/adobe/utopia/putri8a.pfb></usr/local/texlive/2023/texmf-dist/fonts/type1/public/cm-super/sfsx1095.pfb>
-Output written on report.pdf (15 pages, 587498 bytes).
+Output written on report.pdf (15 pages, 587436 bytes).
 PDF statistics:
  259 PDF objects out of 1000 (max. 8388607)
  217 compressed objects within 3 object streams
