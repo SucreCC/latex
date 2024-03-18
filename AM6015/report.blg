@@ -4,36 +4,37 @@ The top-level auxiliary file: report.aux
 The style file: unsrt.bst
 Database file #1: /Users/dengkai/workspace/papers/latex/config/ref.bib
 Warning--empty journal in Mcculloch1854LOGICALCALCULUSIDEAS
-You've used 2 entries,
+Warning--empty journal in A.L.Hodgkin1952QuantitativeDescriptionMembrane
+You've used 3 entries,
             1791 wiz_defined-function locations,
-            457 strings with 3925 characters,
-and the built_in function-call counts, 318 in all, are:
-= -- 24
-> -- 12
+            462 strings with 4162 characters,
+and the built_in function-call counts, 466 in all, are:
+= -- 35
+> -- 20
 < -- 0
-+ -- 5
-- -- 3
-* -- 13
-:= -- 59
-add.period$ -- 6
-call.type$ -- 2
-change.case$ -- 1
++ -- 8
+- -- 5
+* -- 20
+:= -- 85
+add.period$ -- 9
+call.type$ -- 3
+change.case$ -- 2
 chr.to.int$ -- 0
-cite$ -- 3
-duplicate$ -- 18
-empty$ -- 34
-format.name$ -- 3
-if$ -- 68
+cite$ -- 5
+duplicate$ -- 26
+empty$ -- 48
+format.name$ -- 5
+if$ -- 99
 int.to.chr$ -- 0
-int.to.str$ -- 2
-missing$ -- 3
-newline$ -- 13
-num.names$ -- 2
-pop$ -- 11
+int.to.str$ -- 3
+missing$ -- 4
+newline$ -- 18
+num.names$ -- 3
+pop$ -- 16
 preamble$ -- 1
 purify$ -- 0
 quote$ -- 0
-skip$ -- 6
+skip$ -- 10
 stack$ -- 0
 substring$ -- 0
 swap$ -- 1
@@ -41,8 +42,8 @@ text.length$ -- 0
 text.prefix$ -- 0
 top$ -- 0
 type$ -- 0
-warning$ -- 1
-while$ -- 2
-width$ -- 3
-write$ -- 22
-(There was 1 warning)
+warning$ -- 2
+while$ -- 3
+width$ -- 4
+write$ -- 31
+(There were 2 warnings)

@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.25 (TeX Live 2023) (preloaded format=pdflatex 2023.7.12)  18 MAR 2024 12:20
+This is pdfTeX, Version 3.141592653-2.6-1.40.25 (TeX Live 2023) (preloaded format=pdflatex 2023.7.12)  18 MAR 2024 13:00
 entering extended mode
  restricted \write18 enabled.
  file:line:error style messages enabled.
@@ -847,7 +847,7 @@ File: ./data/M-P.jpg Graphic file (type jpg)
 Package pdftex.def Info: ./data/M-P.jpg  used on input line 205.
 (pdftex.def)             Requested size: 376.42744pt x 347.78474pt.
  [5] [6 <./data/M-P.jpg>] [7]
-<./data/Hodgkin-Huxley.png, id=95, 351.3125pt x 248.93pt>
+<./data/Hodgkin-Huxley.png, id=97, 351.3125pt x 248.93pt>
 File: ./data/Hodgkin-Huxley.png Graphic file (type png)
 <use ./data/Hodgkin-Huxley.png>
 Package pdftex.def Info: ./data/Hodgkin-Huxley.png  used on input line 253.
@@ -875,18 +875,18 @@ Package rerunfilecheck Info: File `report.out' has not changed.
 (rerunfilecheck)             Checksum: D41D8CD98F00B204E9800998ECF8427E;0.
  ) 
 Here is how much of TeX's memory you used:
- 18880 strings out of 476025
- 346360 string characters out of 5790017
- 1863388 words of memory out of 5000000
- 38886 multiletter control sequences out of 15000+600000
+ 18882 strings out of 476025
+ 346459 string characters out of 5790017
+ 1864388 words of memory out of 5000000
+ 38887 multiletter control sequences out of 15000+600000
  609827 words of font info for 135 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
  108i,12n,106p,10646b,531s stack positions out of 10000i,1000n,20000p,200000b,200000s
 </usr/local/texlive/2023/texmf-dist/fonts/type1/public/fourier/fourier-mex.pfb></usr/local/texlive/2023/texmf-dist/fonts/type1/public/fourier/fourier-ml.pfb></usr/local/texlive/2023/texmf-dist/fonts/type1/public/fourier/fourier-mlit.pfb></usr/local/texlive/2023/texmf-dist/fonts/type1/public/fourier/fourier-ms.pfb></usr/local/texlive/2023/texmf-dist/fonts/type1/adobe/utopia/putb8a.pfb></usr/local/texlive/2023/texmf-dist/fonts/type1/adobe/utopia/putr8a.pfb></usr/local/texlive/2023/texmf-dist/fonts/type1/adobe/utopia/putri8a.pfb></usr/local/texlive/2023/texmf-dist/fonts/type1/public/cm-super/sfsx1095.pfb>
-Output written on report.pdf (14 pages, 583756 bytes).
+Output written on report.pdf (14 pages, 584063 bytes).
 PDF statistics:
- 244 PDF objects out of 1000 (max. 8388607)
- 203 compressed objects within 3 object streams
- 62 named destinations out of 1000 (max. 500000)
+ 246 PDF objects out of 1000 (max. 8388607)
+ 205 compressed objects within 3 object streams
+ 63 named destinations out of 1000 (max. 500000)
  150 words of extra memory for PDF output out of 10000 (max. 10000000)
 
